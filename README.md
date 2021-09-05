@@ -18,4 +18,4 @@ A step-by-step tutorial to classify audio signals using continuous wavelet trans
  
  classification_report
 
-<img align="center" width="15%" src='Images/classification_report.png' alt="title" />
+<img align="center" width="100%" src='Images/classification_report.png' alt="title" />
