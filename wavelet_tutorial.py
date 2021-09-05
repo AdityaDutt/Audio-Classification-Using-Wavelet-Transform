@@ -143,7 +143,7 @@ def compute_wavelet_features(X) :
 
 
 # Step 3: Compute continuous wavelet transform of training and testing data using the function in Step 3
-'''
+
 ### Compute Training data features. We have each sample into frames of length 400
 
 indices = []
@@ -193,11 +193,11 @@ uniq_id = np.array(uniq_id)
 print("Y: ", WaveletYTrain.shape, " unique: ", np.unique(WaveletYTrain, return_counts=True))
 # Write all features to a .npz file
 np.savez_compressed(os.getcwd()+"/training_features", a=WaveletFeatTrain, b=WaveletYTrain, c=uniq_id)
-'''
+
 
 
 ### Compute Testing data features
-'''
+
 WaveletFeatTest = [] # Store wavelet features. We have each sample into frames of length 400
 WaveletYTest = [] # Store class labels corresponding to wavelet features from an audio sample
 uniq_id = []
@@ -226,7 +226,7 @@ WaveletFeatTest = WaveletFeatTest.astype(np.float16)
 
 # Write all features to a .npz file
 np.savez_compressed(os.getcwd()+"/testing_features", a=WaveletFeatTest, b=WaveletYTest, c=uniq_id)
-'''
+
 
 
 # Step 4: Build a deep learning model
