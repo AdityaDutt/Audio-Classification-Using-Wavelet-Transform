@@ -15,3 +15,7 @@ A step-by-step tutorial to classify audio signals using continuous wavelet trans
     - training_raw_audio.npz: We are only classifying 3 speakers here: george, jackson, and lucas. All the training data from these 3 speakers is in this numpy zip file.
     - testing_raw_audio.npz: We are only classifying 3 speakers here: george, jackson, and lucas. All the testing data from these 3 speakers is in this numpy zip file.
     - requirements.txt: It contains the required libraries.
+ 
+ classification_report
+
+<img align="center" width="15%" src='Images/classification_report.png' alt="title" />
