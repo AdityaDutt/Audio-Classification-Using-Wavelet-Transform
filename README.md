@@ -1,5 +1,5 @@
 
-<img align="center" width="100%" src='Images/jan-huber-SqR_XkrwwPk-unsplash.jpg' alt="title" />
+<img align="center" width="100%" height="50% src='Images/jan-huber-SqR_XkrwwPk-unsplash.jpg' alt="title" />
 
 # Audio Classification using Wavelet Transform and Deep Learning
 A step-by-step tutorial to classify audio signals using continuous wavelet transform (CWT) as features.
